@@ -1,0 +1,20 @@
+{
+  "name": "egg_hacker_news",
+  "version": "1.0.0",
+  "description": "Hacker News",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "dev": "egg-bin dev"
+  },
+  "author": "phoebus",
+  "dependencies": {
+    "egg": "^2.14.1",
+    "egg-scripts": "^2.5.0",
+    "egg-view-nunjucks": "^2.2.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.9.0"
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "keys": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\config\\config.default.js",
+    "mapping": {
+      ".tpl": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\config\\config.default.js"
+    },
+    "root": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "cache": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js"
+  },
+  "middleware": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\config\\config.default.js",
+  "session": {
+    "maxAge": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "useSession": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "cookieName": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "sessionName": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "headerName": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "bodyName": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "queryName": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "value": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "value": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "value": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "policy": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-security@2.4.1@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js",
+      "development": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-schedule@3.5.0@egg-schedule\\config\\config.default.js",
+      "file": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-schedule@3.5.0@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "files": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "fastReady": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-development@2.4.1@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-logrotator@3.0.5@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "dir": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "dynamic": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "preload": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "buffer": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "name": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "proxy": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "version": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "description": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "license": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "scripts": {
+      "test": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "test-local": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "dev": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+    },
+    "author": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "egg-scripts": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "HOME": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "rundir": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "notFound": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "sitefile": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "middlewares": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "httpClient": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "encoding": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "formLimit": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "jsonLimit": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "strict": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "depth": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "encoding": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "env": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "level": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "consoleLevel": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "outputJSON": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "buffer": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "appLogName": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "coreLogName": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "agentLogName": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "errorLogName": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "maxSockets": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "maxSockets": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "logging": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "serverTimeout": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "port": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+      "hostname": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js",
+    "responseTimeout": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\config.default.js"
+}

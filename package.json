@@ -12,7 +12,10 @@
   "author": "phoebus",
   "dependencies": {
     "egg": "^2.14.1",
+    "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.5.0",
+    "egg-security": "^2.4.1",
+    "egg-view-ejs": "^2.0.0",
     "egg-view-nunjucks": "^2.2.0",
     "moment": "^2.23.0"
   },

@@ -1,3 +1,5 @@
+'use strict';
+
 const Service = require('egg').Service;
 // 抓取 Hacker News 的数据
 class NewsService extends Service {

@@ -5,11 +5,18 @@ module.exports = appInfo => {
 
 
     // 添加 view 配置，渲染模版
-    config.view = {
+    /*config.view = {
       defaultViewEngine: 'nunjucks',
       mapping: {
         '.tpl': 'nunjucks',
       },
+    };*/
+    config.view = {
+        defaultViewEngine: 'ejs',
+        // defaultExtension: '.ejs',
+        mapping: {
+            '.html': 'ejs',
+        },
     };
 
     // mysql配置
@@ -18,13 +25,13 @@ module.exports = appInfo => {
             // ip地址
             host: 'localhost',
             // 端口
-            post: '3306',
+            port: '3306',
             // 用户名
             user: 'root',
             // 密码
             password: 'root',
             // 数据库名
-            database: 'egg_demo'
+            database: 'egg-mysql'
         },
         app: true,
         agent: false,
@@ -37,7 +44,10 @@ module.exports = appInfo => {
 
     // add middleware robot
     config.middleware = [
-        'robot'
+        'robot',
+        'printdate',
+        'forbidip',
+        'auth',
     ];
     // robot's configurations
     config.robot = {

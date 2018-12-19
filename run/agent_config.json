@@ -111,13 +111,6 @@
         "cron": "0 30 4 * * *"
       }
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -137,7 +130,7 @@
     },
     "view": {
       "root": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\app\\view",
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
@@ -149,11 +142,11 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": false
+      "cache": true
     },
-    "env": "local",
+    "env": "unittest",
     "name": "egg_hacker_news",
-    "keys": "<String len: 19>",
+    "keys": "<String len: 34>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
@@ -164,7 +157,8 @@
       "description": "Hacker News",
       "license": "MIT",
       "scripts": {
-        "test": "npm run lint -- --fix && npm run test-local",
+        "test": "egg-bin test",
+        "cov": "egg-bin cov",
         "test-local": "egg-bin test",
         "dev": "egg-bin dev"
       },
@@ -172,10 +166,12 @@
       "dependencies": {
         "egg": "^2.14.1",
         "egg-scripts": "^2.5.0",
-        "egg-view-nunjucks": "^2.2.0"
+        "egg-view-nunjucks": "^2.2.0",
+        "moment": "^2.23.0"
       },
       "devDependencies": {
-        "egg-bin": "^4.9.0"
+        "egg-bin": "^4.9.0",
+        "egg-mock": "^3.20.1"
       }
     },
     "baseDir": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news",
@@ -212,19 +208,17 @@
     "logger": {
       "dir": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\logs\\egg_hacker_news",
       "encoding": "utf8",
-      "env": "local",
+      "env": "unittest",
       "level": "INFO",
-      "consoleLevel": "INFO",
+      "consoleLevel": "WARN",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": true,
+      "buffer": false,
       "appLogName": "egg_hacker_news-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -273,7 +267,19 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [],
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+    },
+    "middleware": [
+      "robot"
+    ],
+    "robot": {
+      "ua": [
+        {},
+        {}
+      ]
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
@@ -375,21 +381,6 @@
       "path": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-multipart@2.3.0@egg-multipart",
       "version": "2.3.0"
     },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg@2.14.1@egg\\config\\plugin.js",
-      "path": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-development@2.4.1@egg-development",
-      "version": "2.4.1"
-    },
     "logrotator": {
       "enable": true,
       "package": "egg-logrotator",
@@ -438,6 +429,15 @@
       "from": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\config\\plugin.js",
       "path": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
       "version": "2.2.0"
+    },
+    "egg-mock": {
+      "enable": true,
+      "path": "D:\\Workspaces\\WebStorm\\egg\\introduction\\egg_hacker_news\\node_modules\\_egg-mock@3.20.1@egg-mock",
+      "name": "egg-mock",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "version": "3.20.1"
     }
   }
 }
